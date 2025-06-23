@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+        }
+        header {
+            background: #4f8cff;
+            color: #fff;
+            padding: 30px 0 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px 40px 20px;
+            background: #eaf0fb;
+        }
+        .hero-content {
+            flex: 1 1 350px;
+            max-width: 500px;
+            padding: 20px;
+        }
+        .hero-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        .hero-content p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+        }
+        .hero-content button {
+            background: #ad4fff;
+            color: #fff;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .hero-content button:hover {
+            background: #2563c9;
+        }
+        .hero-image {
+            flex: 1 1 300px;
+            max-width: 400px;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero-image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 20px;
+            box-shadow: 0 4px 24px rgba(79,140,255,0.15);
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px 20px;
+            background: #fff;
+        }
+        .feature-box {
+            background: #f0f4fa;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px rgba(79,140,255,0.07);
+            padding: 30px 25px;
+            max-width: 300px;
+            flex: 1 1 250px;
+            text-align: center;
+        }
+        .feature-box h3 {
+            margin-bottom: 10px;
+            color: #4f8cff;
+        }
+        .feature-box p {
+            font-size: 1rem;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            margin-top: 40px;
+        }
+        @media (max-width: 900px) {
+            .hero {
+                flex-direction: column;
+                padding: 40px 10px 30px 10px;
+            }
+            .features {
+                flex-direction: column;
+                gap: 20px;
+                padding: 30px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Creative Landing Page</h1>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Build. Create. Inspire.</h1>
+            <p>Kickstart your web development journey with a stunning landing page. Learn, experiment, and showcase your creativity with modern layouts and beautiful design.</p>
+            <button>Get Started</button>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Creative workspace">
+        </div>
+    </section>
+    <section class="features" id="features">
+        <div class="feature-box">
+            <h3>Easy Layouts</h3>
+            <p>Master columns, sections, and alignment to create visually appealing web pages.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Modern Design</h3>
+            <p>Experiment with color palettes, padding, and boxes for a fresh, modern look.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Responsive</h3>
+            <p>Your landing page looks great on any device, thanks to responsive design techniques.</p>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Creative Landing Page. All rights reserved.
+    </footer>
+</body>
+</html>
